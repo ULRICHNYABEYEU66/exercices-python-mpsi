@@ -1,1 +1,1 @@
-print("JE suis passionné par la cyber securite")
+JE suis passionné par la cyber securite
