@@ -1,0 +1,5 @@
+Nom="Nyabeyeu"
+Age=19
+print(f"bonjour je m'appelle {Nom} et j'ai {Age} ans.")
+Age=Age+10
+print(f"bonjour je m'appelle {Nom} et j'ai {Age} ans.")
