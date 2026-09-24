@@ -1,1 +1,2 @@
-print("J'aime tout ce qui est numerique")s
+
+J'aime tout ce qui est numerique
