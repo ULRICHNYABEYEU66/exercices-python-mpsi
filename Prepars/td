@@ -1,0 +1,14 @@
+def recherche1(tab, val):
+    presence = False
+    i = 0
+    while i < len(tab) and not presence:
+        if tab[i] == val:
+            presence = True
+        i = i+1 
+    return presence
+print(recherche1([5,3,6,5],5))
+
+
+
+
+        
