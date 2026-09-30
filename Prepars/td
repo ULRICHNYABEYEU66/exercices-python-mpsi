@@ -1,4 +1,4 @@
-def recherche1(tab, val):
+def contient_e(tab, val):
     presence = False
     i = 0
     while i < len(tab) and not presence:
@@ -6,7 +6,7 @@ def recherche1(tab, val):
             presence = True
         i = i+1 
     return presence
-print(recherche1([5,3,6,5],5))
+print(contient_e('abracadabra','a'))
 
 
 
