@@ -1,9 +1,11 @@
-products = ["banane", "patate","manioc", "pomme","tomate"]
-print(products)
-print(products[0])
-products[2] = "haricot"
-print(products.append("poivre"))
-print(products.remove("pomme"))
-print(len(products))
-print(products)
+stock = ["ballon","maillot","crampons"]
+print(stock)
+stock.extend(["raquette","filet","balles"])
+print(stock)
+stock.append(["gourde","serviette"])
+print(stock)
+stock.insert(2,"football")
+print(stock)
+
+
 
