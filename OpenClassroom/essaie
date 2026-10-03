@@ -1,11 +1,4 @@
-stock = ["ballon","maillot","crampons"]
-print(stock)
-stock.extend(["raquette","filet","balles"])
-print(stock)
-stock.append(["gourde","serviette"])
-print(stock)
-stock.insert(2,"football")
-print(stock)
+
 
 
 

@@ -1,0 +1,13 @@
+playlist = ["billie jaen", "hello","in the end"]
+print(playlist)
+playlist.append("Espresso")
+print(playlist)
+playlist.extend(["Djadja","Despacito"])
+playlist.insert(0,"Bohemian Rhapsody")
+print(playlist)
+playlist[2] = "Thriller"
+print(playlist)
+playlist.pop(4)
+print(len(playlist))
+playlist.clear()
+print(playlist)
