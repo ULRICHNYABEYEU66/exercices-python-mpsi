@@ -1,0 +1,13 @@
+invites = ["Alice", "Bob", "Charlie"]
+invites.append("David")
+invites.extend(["Eve", "Alice", "Frank"])
+print(invites.count("Alice"))
+print(invites.index("Charlie"))
+invites.pop(-1)
+print(invites)
+invites.sort()
+print(invites)
+invites.reverse()
+print(invites)
+
+
