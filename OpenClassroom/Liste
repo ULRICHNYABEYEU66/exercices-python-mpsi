@@ -1,3 +1,10 @@
+prenom = input ( "quel est ton prénom ? " )
+ville = input ("quel est ta ville ")
+metier = input ("quel est ton métier ? " )
 
-
-
+print("Bonjour", prenom, "!")
+print("Tu habites à", ville, "!")
+print("Ton métier est", metier, "!")
+AGE = input("Quel est ton âge ? ")
+print(type(AGE))
+      
