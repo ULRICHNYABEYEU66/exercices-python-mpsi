@@ -1,0 +1,15 @@
+notes = [12,8,15,6,18,11,14]
+note_max = notes[0]
+note_min = notes[0]
+for n in notes:
+    somme = somme
+    if n > note_max:
+        note_max = n
+    if n < note_min:
+        note_min = n
+        moyenne = somme/len(notes)
+        print(f"Note maximale: {note_max}, Note minimale: {note_min}, Moyenne: {moyenne}")
+        print("Notes la plus haute:", note_max)
+        print("Notes la plus basse:", note_min)
+        
+        
