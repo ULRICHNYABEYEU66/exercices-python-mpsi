@@ -1,0 +1,10 @@
+prenom= input ("quel est votre prenom: ")
+ville= input ("quele est ta ville: ")
+metier= input("quel est ton metier: ")
+print("Nom:",prenom)
+print("ville:",ville)
+print("metier:",metier)
+print(f"bonour {prenom}!,vous habitez a {ville}et vous etes {metier}")
+
+
+
