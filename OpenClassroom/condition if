@@ -1,0 +1,10 @@
+note = float(input("quelle est ta note?"))
+if note>=16:
+    print("excellent")
+elif note>=14:
+    print("Bien")
+elif note>=10:
+    print("Moyen")
+else:
+    print("Echec")
+    
