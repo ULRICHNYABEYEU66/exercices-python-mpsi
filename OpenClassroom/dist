@@ -1,0 +1,8 @@
+fruit={"pomme":"rouge" ,"banane":"jaune" ,"orange":"orange"}
+fruit["kiwi"]="vert"
+print(fruit["banane"])
+couleur_banane=print(fruit["banane"])
+fruit["pomme"]="vert"
+fruit.get("banane")
+print(fruit.keys())
+

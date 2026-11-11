@@ -1,0 +1,8 @@
+from datetime import datetime
+heure=datetime.now().hour
+if heure<12:
+    print("bonjour!")
+else:
+    print("bon apre midi!")
+      
+ 
