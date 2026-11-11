@@ -1,8 +1,7 @@
-fruit={"pomme":"rouge" ,"banane":"jaune" ,"orange":"orange"}
-fruit["kiwi"]="vert"
-print(fruit["banane"])
-couleur_banane=print(fruit["banane"])
-fruit["pomme"]="vert"
-fruit.get("banane")
-print(fruit.keys())
-
+products={"nom": "portable" ,"prix":9500 ,"categorie":"matiere" ,"quantite":5}
+print(products["nom"])
+products["prix"]=8000
+products["vailable"]="true"
+for key,value in products.items():
+ print(key,":",value)
+ 
